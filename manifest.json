@@ -1,0 +1,14 @@
+{
+    "name": "Screen Recorder Extesion",
+    "description": "Allows you to record your screen!",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "version": "1.0",
+    "permissions": ["desktopCapture", "declarativeContent", "activeTab", "tabCapture"],
+    "manifest_version": 2
+}
